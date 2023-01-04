@@ -1,13 +1,38 @@
 {
   "files": {
-    "main.css": "/REACT-SPA/static/css/main.e6c13ad2.css",
-    "main.js": "/REACT-SPA/static/js/main.32b7e69e.js",
+    "main.css": "/REACT-SPA/static/css/main.1ed33ded.css",
+    "main.js": "/REACT-SPA/static/js/main.5fa84e71.js",
+    "static/media/5.jpg": "/REACT-SPA/static/media/5.c65c34fdc9bf0068a7ee.jpg",
+    "static/media/7.jpg": "/REACT-SPA/static/media/7.37cc5293f1d39647d817.jpg",
+    "static/media/4.jpg": "/REACT-SPA/static/media/4.4f0f0046f1bb7be532e3.jpg",
+    "static/media/3.webp": "/REACT-SPA/static/media/3.44e0cf5dfd947914022a.webp",
+    "static/media/8.jpg": "/REACT-SPA/static/media/8.6e17718237fcd9f22344.jpg",
+    "static/media/1.webp": "/REACT-SPA/static/media/1.c08d01e8c8d6377a6f2d.webp",
+    "static/media/anakin-race.jpeg": "/REACT-SPA/static/media/anakin-race.93be4ebded61b8c16a20.jpeg",
+    "static/media/2.jpg": "/REACT-SPA/static/media/2.4c228968ff6103d7b2e5.jpg",
+    "static/media/darth-vader.webp": "/REACT-SPA/static/media/darth-vader.9b7d5f24670ea580d248.webp",
+    "static/media/11.jpg": "/REACT-SPA/static/media/11.b462e53cd4a1b6ba2d91.jpg",
+    "static/media/6.webp": "/REACT-SPA/static/media/6.740908078ef202646c6c.webp",
+    "static/media/mainPic.jpg": "/REACT-SPA/static/media/mainPic.afa211b000190b13e0df.jpg",
+    "static/media/Ray.jpg": "/REACT-SPA/static/media/Ray.19025a32080d802c43ff.jpg",
+    "static/media/Anakin.webp": "/REACT-SPA/static/media/Anakin.e92f20decf14bdbb5095.webp",
+    "static/media/logo.svg.png": "/REACT-SPA/static/media/logo.svg.1849b09b65f9a9546f20.png",
+    "static/media/10.jfif": "/REACT-SPA/static/media/10.f4ea4d5758a066460df6.jfif",
+    "static/media/9.jfif": "/REACT-SPA/static/media/9.b30a158346692872a05c.jfif",
+    "static/media/Missing_avatar.svg": "/REACT-SPA/static/media/Missing_avatar.fd62969276913e9d9b18.svg",
+    "static/media/like.svg": "/REACT-SPA/static/media/like.f007a8c1a41fd7f514ad858afe9b5c45.svg",
+    "static/media/share.svg": "/REACT-SPA/static/media/share.77df965bd9f329a72825351fe6c97371.svg",
+    "static/media/comment.svg": "/REACT-SPA/static/media/comment.7e5901c586cc1051b6abd68eb95ab0e6.svg",
     "index.html": "/REACT-SPA/index.html",
-    "main.e6c13ad2.css.map": "/REACT-SPA/static/css/main.e6c13ad2.css.map",
-    "main.32b7e69e.js.map": "/REACT-SPA/static/js/main.32b7e69e.js.map"
+    "static/media/anonim_icon.svg": "/REACT-SPA/static/media/anonim_icon.adf1984e0cbc7237511f122010e05f10.svg",
+    "static/media/reply.svg": "/REACT-SPA/static/media/reply.9b46f8d062344d0069e4534feda49c83.svg",
+    "static/media/male_icon.svg": "/REACT-SPA/static/media/male_icon.8a57682671f6cbfa0db7893c278bf50c.svg",
+    "static/media/female_icon.svg": "/REACT-SPA/static/media/female_icon.7e04a483a2e19e2f0553dde2964343c8.svg",
+    "main.1ed33ded.css.map": "/REACT-SPA/static/css/main.1ed33ded.css.map",
+    "main.5fa84e71.js.map": "/REACT-SPA/static/js/main.5fa84e71.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.32b7e69e.js"
+    "static/css/main.1ed33ded.css",
+    "static/js/main.5fa84e71.js"
   ]
 }
