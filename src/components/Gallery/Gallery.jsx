@@ -6,7 +6,7 @@ const images = Object.values(IMAGES)
 const Gallery = () => {
     return (
         <>
-        <p className="title">Hover</p>
+        {/* <p className="title">Hover</p> */}
         <div className="gallery">
             {
                 images.map((element) => {

@@ -1,11 +1,13 @@
 import { React } from "react";
 import { NavLink } from 'react-router-dom';
 
+const git = 'REACT-SPA';
+
 const Navigation = () => {
     return (
         <nav>
             <NavLink
-                to=''
+                to={git}
             >Main</NavLink>
 
             <NavLink
