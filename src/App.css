@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6d7783;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.active {
+    text-decoration: underline;
+}
+
+.App {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #383d40; */
+}
+
+nav {
+    padding: 10px 50px;
+    margin: 0 0 10px;
+    display: flex;
+    gap: 15px;
+    background: #44494de4;
+    border-radius: 0 0 8px 8px;
+}
+
+.main p {
+    font-size: large;
+    text-indent: 30px;
+    line-height: 30px;
+    /* color: black; */
+    color: white;
+    margin: 15px 0;
+}
+
+.main img {
+    margin: 25px 0;
+    max-width: 600px;
+}
+
+.main .body {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px;
+    color: black;
+}
+
+.gallery-item {
+    width: 45%;
+    filter: blur(2px);
+    transition: all .2s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.005);
+    filter: blur(0);
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 2px;
+}
