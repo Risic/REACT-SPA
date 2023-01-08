@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #6d7783;
+    background-color: #a2b1c2;
 }
 
 a {
@@ -25,7 +25,6 @@ a.active {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: #383d40; */
 }
 
 nav {
@@ -41,8 +40,7 @@ nav {
     font-size: large;
     text-indent: 30px;
     line-height: 30px;
-    /* color: black; */
-    color: rgb(0, 0, 0);
+    color: black;
     margin: 15px 0;
 }
 

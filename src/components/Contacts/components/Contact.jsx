@@ -1,9 +1,16 @@
 import maleGenderIcon from "../image/male_icon.svg";
 import femaleGenderIcon from "../image/female_icon.svg";
-import anonimGenderIcon from "../image/anonim_icon.svg"
+import anonimGenderIcon from "../image/anonim_icon.svg";
+import { useParams } from 'react-router-dom';
+import contactsInit from "./initContacts";
 
-const Contact = ({firstName, lastName, phone, gender}) => {
-    // console.log(firstName, lastName, phone, gender)
+const Contact = () => {
+    const {username} = useParams()
+
+    const getContact = (user) => {
+        return contactsInit.find(contact => contact.firstName === user)
+    }
+    const {firstName, lastName, phone, gender} = getContact(username)
 
     const getGender = (gender) => {
         switch (gender) {

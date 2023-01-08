@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { React, useState, useEffect } from "react";
+import { Link, Outlet } from 'react-router-dom';
 import contactsInit from "./initContacts";
-import Contact from "./Contact";
 import GenderCheck from "./GenderCheck";
 
 const Contacts = () => {
@@ -38,15 +38,21 @@ const Contacts = () => {
                     value={search}/>
                 <GenderCheck gender={gender} setGender={setGender}/>
             </div>
+        <div className="contacts-list">
         {
             contacts.map((contact, index) => {
                 return (
                     <div key={index}>
-                        <Contact {...contact} />
+                        {/* <Contact {...contact} /> */}
+                        <Link to={`/contacts/${contact.firstName}`} >
+                            <p>{(index += 1) + ". " + contact.firstName + " " + contact.lastName}</p>
+                        </Link>
+                        <Outlet />
                     </div>
                 )
             })
         }
+        </div>
         </div>
     )
 }

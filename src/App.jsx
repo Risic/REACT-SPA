@@ -13,6 +13,7 @@ import Posts from './components/Posts/Posts'
 import ContactsComponent from './components/Contacts/ContactsComponent';
 
 import './App.css';
+import Contact from './components/Contacts/components/Contact';
 
 const git = 'REACT-SPA';
 
@@ -25,7 +26,8 @@ function App() {
           <Route path={git} element={<Main/>}/>
           <Route path='posts' element={<Posts/>}/>
           <Route path='gallery' element={<Gallery/>}/>
-          <Route path='contacts' element={<ContactsComponent/>}/>
+          <Route path='contacts/*' element={<ContactsComponent/>}/>
+          <Route path='contacts/:username' element={<Contact/>} />
           <Route path='*' element={<ErrorComponent/>}/>
         </Routes>
       </Router>
