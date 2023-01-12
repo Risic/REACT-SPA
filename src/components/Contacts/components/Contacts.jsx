@@ -43,7 +43,6 @@ const Contacts = () => {
             contacts.map((contact, index) => {
                 return (
                     <div key={index}>
-                        {/* <Contact {...contact} /> */}
                         <Link to={`/contacts/${contact.firstName}`} >
                             <p>{(index += 1) + ". " + contact.firstName + " " + contact.lastName}</p>
                         </Link>

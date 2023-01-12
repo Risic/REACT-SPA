@@ -11,9 +11,9 @@ import Main from './components/Main/Main';
 import Gallery from './components/Gallery/Gallery';
 import Posts from './components/Posts/Posts'
 import ContactsComponent from './components/Contacts/ContactsComponent';
+import Contact from './components/Contacts/components/Contact'
 
-import './App.css';
-import Contact from './components/Contacts/components/Contact';
+import './App.css';;
 
 const git = 'REACT-SPA';
 
